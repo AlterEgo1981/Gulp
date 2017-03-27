@@ -13,6 +13,6 @@
 }
 
 .block2 {
-    @include corners(5px, red);
+    @include corners(5000px, red);
     background: #00f;
 }

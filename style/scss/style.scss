@@ -1,0 +1,18 @@
+@mixin corners($radius, $color) {
+    border-radius: $radius;
+    border-top-right-radius: $radius * 2;
+    border-top-right-radius: $radius * 2;
+    border-bottom-left-radius: $radius * 2;
+    a {
+        color: $color;
+    }
+}
+
+.block1 {
+    @include corners(2px, green);
+}
+
+.block2 {
+    @include corners(5px, red);
+    background: #00f;
+}

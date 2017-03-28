@@ -1,3 +1,16 @@
-body {
-	background-color:orange;
-}
+.block1 {
+  border-radius: 2px;
+  border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px; }
+  .block1 a {
+    color: green; }
+
+.block2 {
+  border-radius: -5000px;
+  border-top-right-radius: -10000px;
+  border-top-right-radius: -10000px;
+  border-bottom-left-radius: -10000px;
+  background: #00f; }
+  .block2 a {
+    color: red; }
